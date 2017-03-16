@@ -1,0 +1,12 @@
+.title {
+  color: $brand-color;
+  h2 {
+    margin-bottom: 1em !important;
+  }
+  .line {
+    width: 60px;
+    border-bottom: 1px solid $green;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
