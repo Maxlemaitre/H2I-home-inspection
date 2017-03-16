@@ -36,58 +36,97 @@
           </div>
         </div>
       </div>
+
+      <!-- 1st line of Mosaic section code -->
+
       <div class="mosaic">
-        <div class="image-mosaic" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path "card-paris.jpg" %>);">
-        <div class="text-mosaic">
-          b
+        <div class="col-sm-6 col-xs-12">
+        <div class="image-mosaic" style="background-image: url(<%= image_path "inspection.jpg" %>);"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="text-mosaic">
+            <h4>Inspection </h4>
+            <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie.
+              Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+          </div>
         </div>
       </div>
 
-    <!-- Your cards code -->
-      <div class="wrapper-grey padded">
-      <h3 class="text-center small-padded "><strong>Your next trip</strong></h3>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-4">
-              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path "card-paris.jpg" %>);">
-                <div class="card-category">Popular</div>
-                  <div class="card-description">
-                    <h2>Some stuff</h2>
-                    <p>Very cool stuff, useful and smart</p>
-                  </div>
-                  <%= image_tag "seb.jpg", class: "card-user avatar" %>
-                  <%= link_to "", "#", class: "card-link" %>
-                </div>
-              </div>
-            <div class="col-xs-12 col-sm-4">
-              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path "card-brussels.jpeg" %>);">
-                <div class="card-category">Popular</div>
-                  <div class="card-description">
-                    <h2>Some stuff</h2>
-                    <p>Very cool stuff, useful and smart</p>
-                  </div>
-                  <%= image_tag "anne.jpg", class: "card-user avatar" %>
-                  <%= link_to "", "#", class: "card-link" %>
-                </div>
-              </div>
-            <div class="col-xs-12 col-sm-4">
-              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= image_path "card-london.jpeg" %>);">
-                <div class="card-category">Popular</div>
-                  <div class="card-description">
-                    <h2>Some stuff</h2>
-                    <p>Very cool stuff, useful and smart</p>
-                  </div>
-                  <%= image_tag "romain.jpeg", class: "card-user avatar" %>
-                  <a class="card-link" href="#" ></a>
-                  <%= link_to "", "#", class: "card-link" %>
-                </div>
-              </div>
+      <!-- 2nd line of Mosaic section code -->
+
+      <div class="mosaic">
+        <div class="col-sm-6 col-xs-12">
+          <div class="text-mosaic second-line">
+          <h4>Livrable complet </h4>
+          <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie.
+              Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+        <div class="image-mosaic" style="background-image: url(<%= image_path "livrable.jpg" %>);"></div>
+        </div>
+      </div>
+
+      <!-- 3rd line of Mosaic section code -->
+
+      <div class="mosaic">
+        <div class="col-sm-6 col-xs-12">
+        <div class="image-mosaic" style="background-image: url(<%= image_path "accompagnement.jpg" %>);"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="text-mosaic">
+            <h4>Inspection </h4>
+            <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie.
+              Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avantages code -->
+      <div class="container big-padded">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="title text-center small-padded">
+              <h2>Les Avantages</h2>
+              <div class="line text-center"></div>
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- Avantages mosaic -->
+      <div class="mosaic">
+        <div class="avantages">
+          <div class="col-sm-4 col-xs-12 section-gauche">
+          <h4>Inspection </h4>
+          <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie.
+              Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+          </div>
+          <div class="col-sm-4 col-xs-12 section-milieu">
+          <h4>Inspection </h4>
+          <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie.
+              Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+          </div>
+          <div class="col-sm-4 col-xs-12 section-droite">
+          <h4>Inspection </h4>
+          <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie.
+              Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+          </div>
+        </div>
+
+        <!-- parallax -->
+        <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path "parallax.jpg" %>);">
+
+          <div class="banner-content">
+            <h2>Home Inspection Pré-Achat</h2>
+            <p>Achetez serein, Achetez demain</p>
+          </div>
+        </div>
+      </div>
+
 
     <!-- Your newsletter code -->
-    <div class="newsletter text-center">
+<!--     <div class="newsletter text-center">
       <h3>Get news from us</h3>
       <p>Leave us your mail and get news from us</p>
       <form class="form-inline">
@@ -96,7 +135,7 @@
         </div>
         <button type="submit" class="btn btn-default btn-primary">Subscribe</button>
       </form>
-    </div>
+    </div> -->
 
     <!-- Your map code -->
     <div id="map" style="width: 100%; height: 400px;"></div>
