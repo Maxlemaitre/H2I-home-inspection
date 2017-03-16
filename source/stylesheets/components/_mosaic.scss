@@ -11,12 +11,14 @@
   }
   .text-mosaic {
     height: 500px;
-    padding: 13em;
-    h4 {
-      margin-top: 0px !important;
-    }
-    p {
+    display: flex;
+    align-items: center;
+    padding: 50px 75px;
+    .title-mosaic {
       color: $grey;
+      h4 {
+      padding-bottom: 20px;
+      }
     }
   }
   .text-mosaic.second-line {
@@ -35,11 +37,16 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+  .section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .section-gauche {
     height: 500px;
     background-color: $brand-color;
-    display: block;
-    vertical-align: center;
   }
   .section-milieu {
     height: 500px;
@@ -48,12 +55,5 @@
   .section-droite {
     height: 500px;
     background-color: $blue;
-  }
-  .parallax {
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 }
