@@ -1,0 +1,16 @@
+/* Mosaic design */
+
+.mosaic {
+  margin: 0px;
+  padding: 0px;
+  .image-mosaic {
+    width: 50vw;
+    color: white;
+    height: 500px;
+    background-size: cover !important;
+  }
+  .text-mosaic {
+    width: 50vw;
+    height: 500px;
+  }
+}
