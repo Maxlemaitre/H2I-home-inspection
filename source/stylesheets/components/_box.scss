@@ -1,0 +1,55 @@
+.box {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.8;
+}
+
+.box-left {
+  height: 360px;
+  border: 1px solid $brand-color;
+  border-bottom: none !important;
+  color: $brand-color;
+  padding: 20px;
+}
+
+.box-right {
+  height: 360px;
+  border: 1px solid $blue;
+  border-bottom: none !important;
+  color: $blue;
+  padding: 20px;
+}
+
+.box-bottom-right {
+  height : 80px;
+  color: white;
+  border: 1px solid $blue;
+  border-top: none !important;
+  h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .layer {
+   background-color: $blue;
+  }
+}
+
+.box-bottom-left {
+  height : 80px;
+  border-top: none !important;
+  color: white;
+  border: 1px solid $brand-color;
+  h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .layer {
+   background-color: $brand-color;
+  }
+}
+
+.layer {
+height: 50px;
+width: 100%;
+}

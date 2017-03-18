@@ -10,3 +10,21 @@
     margin-right: auto;
   }
 }
+
+#footer {
+  margin-top: 3em;
+  background-color: $brand-color;
+  color: white;
+  padding: 10px 0px;
+  .fa {
+    color: white;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.description p {
+  margin-right: 80px;
+  margin-left: 80px;
+  }
