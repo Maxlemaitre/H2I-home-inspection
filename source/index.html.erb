@@ -9,23 +9,22 @@
 
     <!-- A Propos code -->
     <div id= "propos" class="container text-center big-padded">
-         <div class="row">
-            <div class="col-xs-12">
-              <div class="title small-padded">
-                <h2>À Propos</h2>
-                <div class="line text-center">
-                </div>
-              </div>
-              <div class="description">
-                <p>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="title small-padded">
+            <h2>À Propos</h2>
+            <div class="line text-center"></div>
+          </div>
+          <div class="description">
+            <p>
                   Acheter une maison ou un appartement est l'un des <strong>actes les plus important de votre vie</strong>. Vous avez eu un coup de coeur, mais avant d'acheter, comme beaucoup de personnes aujourd'hui, vous avez besoin d'être rassuré sur ce bien immobilier afin d'<strong>éviter les mauvaises surprises</strong>.Nous vous proposons<strong> une inspection générale du bien</strong> que vous envisagez d'acheter.
                   Nous vérifions pour vous, l'ensemble des points suivants : électricité, plomberie, chauffage, toiture, humidité, sol, mur ,terrain, conformité des lieux et
                   imagerie thermique.
-                </p>
-              </div>
+            </p>
           </div>
         </div>
       </div>
+    </div>
 
       <!-- Nos préstations code -->
       <div id= "prestations" class="container big-padded">
@@ -43,7 +42,7 @@
 
       <div class="mosaic">
         <div class="col-sm-6 col-xs-12">
-        <div class="image-mosaic" style="background-image: url(<%= image_path "inspection.jpg" %>);"></div>
+          <div class="image-mosaic" style="background-image: url(<%= image_path "inspection.jpg" %>);"></div>
         </div>
         <div class="col-sm-6 col-xs-12">
           <div class="text-mosaic">
@@ -55,9 +54,30 @@
         </div>
       </div>
 
-      <!-- 2nd line of Mosaic section code -->
+      <!-- 2nd line of Mosaic section code for Destkop -->
+      <div class="desktop">
+        <div class="mosaic">
+          <div class="col-sm-6 col-xs-12">
+            <div class="text-mosaic text-right">
+              <span class="title-mosaic">
+                <h4>Inspection</h4>
+                <p>Acheter une maison ou un appartement est l'un des actes les plus important de votre vie. Vous avez eu un coup de coeur, mais avant d'acheter, comme</p>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <div class="image-mosaic" style="background-image: url(<%= image_path "livrable.jpg" %>);"></div>
+          </div>
+        </div>
+      </div>
 
+      <!-- 2nd line of Mosaic section code for Mobile -->
+
+    <div class="mobile">
       <div class="mosaic">
+        <div class="col-sm-6 col-xs-12">
+          <div class="image-mosaic" style="background-image: url(<%= image_path "livrable.jpg" %>);"></div>
+        </div>
         <div class="col-sm-6 col-xs-12">
           <div class="text-mosaic second-line">
             <span class="title-mosaic">
@@ -66,10 +86,8 @@
             </span>
           </div>
         </div>
-        <div class="col-sm-6 col-xs-12">
-        <div class="image-mosaic" style="background-image: url(<%= image_path "livrable.jpg" %>);"></div>
-        </div>
       </div>
+    </div>
 
       <!-- 3rd line of Mosaic section code -->
 
@@ -132,15 +150,16 @@
       </div>
 
         <!-- parallax -->
-      <div class="parallax">
-        <div class="col-xs-12 remove-padding">
-          <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path "parallax-2.jpg" %>);">
-          <div class="parallax-content">
-            <h2>Intéressé(e) ?</h2>
-            <h5>Discutons en dès maintenant grâce à notre tchat</h5>
+          <div class="parallax">
+            <div class="col-xs-12 remove-padding">
+              <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path "parallax-2.jpg" %>);">
+                <div class="parallax-content">
+                  <h2>Intéressé(e) ?</h2>
+                  <h5>Discutons en dès maintenant grâce à notre tchat</h5>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
        <!-- Tarifs code -->
       <div class="container text-center big-padded">
@@ -182,7 +201,7 @@
               </div>
               <div class="box box-bottom-right">
                 <div class="layer">
-                  <h3>Idéal Investisseurs</h3>
+                  <h3>Idéal Investisseur</h3>
                 </div>
               </div>
             </div>
@@ -190,7 +209,9 @@
         </div>
       </div>
     </div>
-      <!-- Contact code -->
+
+    <!-- Contact code -->
+
     <div id= "contact" class="container big-padded">
       <div class="row">
         <div class="col-xs-12">
@@ -199,7 +220,7 @@
             <div class="line text-center"></div>
           </div>
           <div class="col-xs-12 col-sm-6">
-            <div id="map" style="width: 90%; height: 300px;"></div>
+            <div id="map" style="width: 100%; height: 300px;"></div>
           </div>
           <div class="col-xs-12 col-sm-6">
             <div class="contact">
@@ -213,8 +234,7 @@
       </div>
     </div>
 
-
-    <!-- Your map code -->
+    <!--  Map code -->
 
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
 
@@ -233,6 +253,6 @@
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title: "You are here!"
+      title: "Nous sommes ici"
     });
     </script>
