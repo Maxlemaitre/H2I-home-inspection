@@ -1,8 +1,10 @@
+/* Box design */
+
 .box {
-  width: 60%;
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .box-left {
@@ -53,3 +55,20 @@
 height: 50px;
 width: 100%;
 }
+
+/* Box mobile design */
+
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+  .box-right {
+    margin-top: 30px;
+    height: 400px;
+    line-height: 1.5;
+  }
+  .box-left {
+    line-height: 1.5;
+    }
+  }
+

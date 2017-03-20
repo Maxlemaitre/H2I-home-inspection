@@ -21,7 +21,7 @@
       }
     }
   }
-  .text-mosaic.second-line {
+  .text-mosaic.text-right {
       text-align: right;
   }
   .col-sm-6.col-xs-12 {
@@ -55,5 +55,19 @@
   .section-droite {
     height: 500px;
     background-color: $blue;
+  }
+}
+
+/*  Images mosaic for mobile/desktop */
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
   }
 }
