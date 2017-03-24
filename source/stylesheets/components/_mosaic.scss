@@ -14,11 +14,8 @@
     display: flex;
     align-items: center;
     padding: 50px 75px;
-    .title-mosaic {
-      color: $grey;
-      h4 {
+    .title-mosaic h4 {
       padding-bottom: 20px;
-      }
     }
   }
   .text-mosaic.text-right {
@@ -56,6 +53,11 @@
     height: 500px;
     background-color: $blue;
   }
+}
+
+.image-avantages {
+  width : 65px;
+  padding-bottom: 20px;
 }
 
 /*  Images mosaic for mobile/desktop */

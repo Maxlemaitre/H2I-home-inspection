@@ -1,5 +1,4 @@
 .contact {
-  color: $grey;
   height: 300px;
   padding-top: 50px;
   i {
@@ -16,11 +15,11 @@
 
 .email {
   text-decoration: none;
-  color: $grey;
+  color: black;
 }
 
 .email:hover {
   text-decoration: none;
-  color: $brand-color;
+  color: $blue;
   cursor: pointer;
 }
