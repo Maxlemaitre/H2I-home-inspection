@@ -1,4 +1,2 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: H2I Home Inspection
+  image: h2i-cover.png
