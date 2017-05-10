@@ -61,12 +61,18 @@
 
 @media (min-width: 768px) {
   .mobile {
-    display: none;
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none !important;
   }
 }
 
 @media (max-width: 768px) {
-  .desktop {
-    display: none;
+  .text-mosaic ul {
+      padding-left: 0px !important;
   }
 }
