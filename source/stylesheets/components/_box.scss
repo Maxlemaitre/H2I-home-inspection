@@ -1,13 +1,16 @@
 /* Box design */
 
 .box {
-  width: 70%;
+  width: 88%;
   margin-right: auto;
   margin-left: auto;
   line-height: 1.7;
+  li {
+    font-weight: 100 !important;
+  }
 }
 
-.box-left {
+.box-right {
   height: 360px;
   border: 1px solid $brand-color;
   border-bottom: none !important;
@@ -15,7 +18,15 @@
   padding: 20px;
 }
 
-.box-right {
+.box-center {
+  height: 360px;
+  border: 1px solid $middleblue;
+  border-bottom: none !important;
+  color: $middleblue;
+  padding: 20px;
+}
+
+.box-left {
   height: 360px;
   border: 1px solid $blue;
   border-bottom: none !important;
@@ -23,7 +34,7 @@
   padding: 20px;
 }
 
-.box-bottom-right {
+.box-bottom-left {
   height : 80px;
   color: white;
   border: 1px solid $blue;
@@ -37,7 +48,22 @@
   }
 }
 
-.box-bottom-left {
+.box-bottom-center {
+  height : 80px;
+  color: white;
+  border: 1px solid $middleblue;
+  border-top: none !important;
+  h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .layer {
+   background-color: $middleblue;
+  }
+}
+
+
+.box-bottom-right {
   height : 80px;
   border-top: none !important;
   color: white;
@@ -59,15 +85,32 @@ width: 100%;
 /* Box mobile design */
 
 @media (max-width: 768px) {
-  .box {
-    width: 90%;
+  .mosaic  {
+    ul {
+      padding-left: 0px;
+    }
+    .text-mosaic {
+      height: auto !important;
+    }
   }
-  .box-right {
+
+  .box-bottom-right, .box-bottom-center, .box-bottom-left {
+    margin-bottom: 20px;
+  }
+
+  .big-padded {
+    padding-top: 2em;
+  }
+
+  .box {
+    width: 100%;
+  }
+  .box-left {
     margin-top: 30px;
     height: 400px;
     line-height: 1.5;
   }
-  .box-left {
+  .box-right {
     line-height: 1.5;
     }
   }
