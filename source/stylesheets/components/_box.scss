@@ -1,12 +1,15 @@
 /* Box design */
 
 .box {
-  width: 88%;
+  width: 98%;
   margin-right: auto;
   margin-left: auto;
   line-height: 1.7;
   li {
     font-weight: 100 !important;
+  }
+  h3 {
+    font-size: 22px;
   }
 }
 
@@ -85,15 +88,6 @@ width: 100%;
 /* Box mobile design */
 
 @media (max-width: 768px) {
-  .mosaic  {
-    ul {
-      padding-left: 0px;
-    }
-    .text-mosaic {
-      height: auto !important;
-    }
-  }
-
   .box-bottom-right, .box-bottom-center, .box-bottom-left {
     margin-bottom: 20px;
   }
@@ -102,9 +96,6 @@ width: 100%;
     padding-top: 2em;
   }
 
-  .box {
-    width: 100%;
-  }
   .box-left {
     margin-top: 30px;
     height: 400px;
